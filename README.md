@@ -72,6 +72,10 @@ To run tests in first use case > run "I:\git\KurtGeiger-TestEngineer-TechTest\qa
 
 To run tests in third use case > run "I:\git\KurtGeiger-TestEngineer-TechTest\qa\src\test\java\com\kg\qa\testcases\TaskTwo.java" as TestNG Test
 
+Detailed test results on > file:///I:/git/KurtGeiger-TestEngineer-TechTest/qa/test-output/Extent.html
+
+Screenshots of failed tests at > I:\git\KurtGeiger-TestEngineer-TechTest\qa\screenshots
+
 
 ## 4. Status
 
