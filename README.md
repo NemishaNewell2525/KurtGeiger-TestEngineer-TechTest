@@ -9,25 +9,25 @@ Two test candidates from a list of 3 use cases have been chosen to design test s
 4. Status
 
 
-### 1. Introduction 
+## 1. Introduction 
 
-Use case One > TaskOne.java
+###Use case One > TaskOne.java
 
 Given I am on the homepage\
 When I select brands category from the header\
 Then I should see the list of brands\
 And I select UGG brand from the list\
-Then I should see the list of products from UGG\
+Then I should see the list of products from UGG
 
 
-Includes 5 test cases\
+####Includes 5 test cases\
 verifyHomePageLoad\
 verifyHeaderBrandsLink\
 verifyBrandsPageLoad\
 verifyUggPageLoad\
-verifyUggProductsPageLoad\
+verifyUggProductsPageLoad
 
-Use case Three > TaskTwo.java
+###Use case Three > TaskTwo.java
 
 Given I select men category from the header\
 And I am on PDP\
@@ -35,6 +35,16 @@ When I select any colour and size for the chosen men category\
 And I add the product to the bag\
 Then I can see the bag with single item\
 And I click 'Proceed to Checkout'\
-Then I should be on checkout page\
+Then I should be on checkout page
 
-
+####Includes 6 test cases\
+verifyMensPageLoad\
+verifyPDP_KKG_M_Loafers_Bazza\
+verifySize\
+verifyAddtobag\
+verifyBagitemNumber\
+verifyCheckoutPageLoad
+	
+	
+## 2. Technologies
+	
