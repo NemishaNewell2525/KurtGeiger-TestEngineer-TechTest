@@ -11,7 +11,7 @@ Two test candidates from a list of 3 use cases have been chosen to design test s
 
 ## 1. Introduction 
 
-###Use case One > TaskOne.java
+##Use case One > TaskOne.java
 
 Given I am on the homepage\
 When I select brands category from the header\
@@ -20,14 +20,14 @@ And I select UGG brand from the list\
 Then I should see the list of products from UGG
 
 
-###Includes 5 test cases\
+##Includes 5 test cases\
 verifyHomePageLoad\
 verifyHeaderBrandsLink\
 verifyBrandsPageLoad\
 verifyUggPageLoad\
 verifyUggProductsPageLoad
 
-###Use case Three > TaskTwo.java
+##Use case Three > TaskTwo.java
 
 Given I select men category from the header\
 And I am on PDP\
@@ -37,7 +37,7 @@ Then I can see the bag with single item\
 And I click 'Proceed to Checkout'\
 Then I should be on checkout page
 
-###Includes 6 test cases\
+##Includes 6 test cases\
 verifyMensPageLoad\
 verifyPDP_KKG_M_Loafers_Bazza\
 verifySize\
