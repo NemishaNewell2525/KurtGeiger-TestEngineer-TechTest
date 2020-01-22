@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="*Kurt Geiger – Test Engineer Automation Task*">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Test Suite">
+		<classes>
+			<class name="com.kg.qa.testcases.TaskOne"></class>
+			<class name="com.kg.qa.testcases.TaskTwo"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+              <span class="suite-name border-passed">*Kurt Geiger – Test Engineer Automation Task*</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span>C:\Users\Nemisha.Newell\Desktop\KG\qa\src\main\resources\RunTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="hide-methods passed suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*"> (hide)</a> <!-- hide-methods passed suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task* -->
+                      <a href="#" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="show-methods passed suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*"> (show)</a> <!-- show-methods passed suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task* -->
+                    </span>
+                    <div class="method-list-content passed suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskTwo" hash-for-method="verifyAddtobag">verifyAddtobag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskTwo" hash-for-method="verifyBagitemNumber">verifyBagitemNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskOne" hash-for-method="verifyBrandsPageLoad">verifyBrandsPageLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskTwo" hash-for-method="verifyCheckoutPageLoad">verifyCheckoutPageLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskOne" hash-for-method="verifyHeaderBrandsLink">verifyHeaderBrandsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskOne" hash-for-method="verifyHomePageLoad">verifyHomePageLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskTwo" hash-for-method="verifyMensPageLoad">verifyMensPageLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskTwo" hash-for-method="verifyPDP_KKG_M_Loafers_Bazza">verifyPDP_KKG_M_Loafers_Bazza</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskTwo" hash-for-method="verifySize">verifySize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskOne" hash-for-method="verifyUggPageLoad">verifyUggPageLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" title="com.kg.qa.testcases.TaskOne" hash-for-method="verifyUggProductsPageLoad">verifyUggProductsPageLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task* -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel *Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+          <div class="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kg.qa.testcases.TaskOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrandsPageLoad">
+                  </a> <!-- verifyBrandsPageLoad -->
+                  <span class="method-name">verifyBrandsPageLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderBrandsLink">
+                  </a> <!-- verifyHeaderBrandsLink -->
+                  <span class="method-name">verifyHeaderBrandsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageLoad">
+                  </a> <!-- verifyHomePageLoad -->
+                  <span class="method-name">verifyHomePageLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUggPageLoad">
+                  </a> <!-- verifyUggPageLoad -->
+                  <span class="method-name">verifyUggPageLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUggProductsPageLoad">
+                  </a> <!-- verifyUggProductsPageLoad -->
+                  <span class="method-name">verifyUggProductsPageLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*-class-passed -->
+          <div class="suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kg.qa.testcases.TaskTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddtobag">
+                  </a> <!-- verifyAddtobag -->
+                  <span class="method-name">verifyAddtobag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBagitemNumber">
+                  </a> <!-- verifyBagitemNumber -->
+                  <span class="method-name">verifyBagitemNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckoutPageLoad">
+                  </a> <!-- verifyCheckoutPageLoad -->
+                  <span class="method-name">verifyCheckoutPageLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMensPageLoad">
+                  </a> <!-- verifyMensPageLoad -->
+                  <span class="method-name">verifyMensPageLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPDP_KKG_M_Loafers_Bazza">
+                  </a> <!-- verifyPDP_KKG_M_Loafers_Bazza -->
+                  <span class="method-name">verifyPDP_KKG_M_Loafers_Bazza</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySize">
+                  </a> <!-- verifySize -->
+                  <span class="method-name">verifySize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-*Kurt_Geiger_–_Test_Engineer_Automation_Task*-class-passed -->
+        </div> <!-- panel *Kurt_Geiger_–_Test_Engineer_Automation_Task* -->
+        <div panel-name="test-xml-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nemisha.Newell\Desktop\KG\qa\src\main\resources\RunTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;*Kurt Geiger – Test Engineer Automation Task*&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test Suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kg.qa.testcases.TaskOne&quot;/&gt;
+      &lt;class name=&quot;com.kg.qa.testcases.TaskTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Suite --&gt;
+&lt;/suite&gt; &lt;!-- *Kurt Geiger – Test Engineer Automation Task* --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for *Kurt Geiger – Test Engineer Automation Task*</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Suite (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for *Kurt Geiger – Test Engineer Automation Task*</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for *Kurt Geiger – Test Engineer Automation Task*</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_*Kurt_Geiger_–_Test_Engineer_Automation_Task*');
+function tableData_*Kurt_Geiger_–_Test_Engineer_Automation_Task*() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCheckoutPageLoad')
+data.setCell(0, 2, 'com.kg.qa.testcases.TaskTwo')
+data.setCell(0, 3, 20240);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyBagitemNumber')
+data.setCell(1, 2, 'com.kg.qa.testcases.TaskTwo')
+data.setCell(1, 3, 7186);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyPDP_KKG_M_Loafers_Bazza')
+data.setCell(2, 2, 'com.kg.qa.testcases.TaskTwo')
+data.setCell(2, 3, 6923);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAddtobag')
+data.setCell(3, 2, 'com.kg.qa.testcases.TaskTwo')
+data.setCell(3, 3, 6585);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyUggPageLoad')
+data.setCell(4, 2, 'com.kg.qa.testcases.TaskOne')
+data.setCell(4, 3, 5835);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySize')
+data.setCell(5, 2, 'com.kg.qa.testcases.TaskTwo')
+data.setCell(5, 3, 5372);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUggProductsPageLoad')
+data.setCell(6, 2, 'com.kg.qa.testcases.TaskOne')
+data.setCell(6, 3, 5193);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyMensPageLoad')
+data.setCell(7, 2, 'com.kg.qa.testcases.TaskTwo')
+data.setCell(7, 3, 3518);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHeaderBrandsLink')
+data.setCell(8, 2, 'com.kg.qa.testcases.TaskOne')
+data.setCell(8, 3, 2043);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyBrandsPageLoad')
+data.setCell(9, 2, 'com.kg.qa.testcases.TaskOne')
+data.setCell(9, 3, 1829);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyHomePageLoad')
+data.setCell(10, 2, 'com.kg.qa.testcases.TaskOne')
+data.setCell(10, 3, 76);
+window.suiteTableData['*Kurt_Geiger_–_Test_Engineer_Automation_Task*']= { tableData: data, tableDiv: 'times-div-*Kurt_Geiger_–_Test_Engineer_Automation_Task*'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-*Kurt_Geiger_–_Test_Engineer_Automation_Task*">
+              </div> <!-- times-div-*Kurt_Geiger_–_Test_Engineer_Automation_Task* -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for *Kurt Geiger – Test Engineer Automation Task*</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-*Kurt_Geiger_–_Test_Engineer_Automation_Task*" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageLoad</span>
+                <span class="method-start">16903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16981 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMensPageLoad</span>
+                <span class="method-start">33429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderBrandsLink</span>
+                <span class="method-start">53823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55867 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPDP_KKG_M_Loafers_Bazza</span>
+                <span class="method-start">73123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBrandsPageLoad</span>
+                <span class="method-start">94851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96681 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySize</span>
+                <span class="method-start">112303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117676 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUggPageLoad</span>
+                <span class="method-start">136725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142561 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">143323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddtobag</span>
+                <span class="method-start">157518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164104 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">164863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUggProductsPageLoad</span>
+                <span class="method-start">179550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kg.qa.testcases.TaskTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">185486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBagitemNumber</span>
+                <span class="method-start">206271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">214217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutPageLoad</span>
+                <span class="method-start">229344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">249585 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

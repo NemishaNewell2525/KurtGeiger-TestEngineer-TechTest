@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="*Kurt Geiger – Test Engineer Automation Task*" duration-ms="250352" started-at="2020-01-21T19:53:11Z" finished-at="2020-01-21T19:57:21Z">
+    <groups>
+    </groups>
+    <test name="Test Suite" duration-ms="250352" started-at="2020-01-21T19:53:11Z" finished-at="2020-01-21T19:57:21Z">
+      <class name="com.kg.qa.testcases.TaskOne">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="setUp" is-config="true" duration-ms="16903" started-at="2020-01-21T19:53:11Z" finished-at="2020-01-21T19:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageLoad()[pri:1, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="verifyHomePageLoad" duration-ms="76" started-at="2020-01-21T19:53:27Z" finished-at="2020-01-21T19:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="tearDown" is-config="true" duration-ms="972" started-at="2020-01-21T19:53:28Z" finished-at="2020-01-21T19:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="setUp" is-config="true" duration-ms="16144" started-at="2020-01-21T19:53:48Z" finished-at="2020-01-21T19:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHeaderBrandsLink()[pri:2, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="verifyHeaderBrandsLink" duration-ms="2043" started-at="2020-01-21T19:54:04Z" finished-at="2020-01-21T19:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderBrandsLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="tearDown" is-config="true" duration-ms="741" started-at="2020-01-21T19:54:06Z" finished-at="2020-01-21T19:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="setUp" is-config="true" duration-ms="14064" started-at="2020-01-21T19:54:31Z" finished-at="2020-01-21T19:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBrandsPageLoad()[pri:3, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="verifyBrandsPageLoad" duration-ms="1829" started-at="2020-01-21T19:54:45Z" finished-at="2020-01-21T19:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandsPageLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="tearDown" is-config="true" duration-ms="748" started-at="2020-01-21T19:54:47Z" finished-at="2020-01-21T19:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="setUp" is-config="true" duration-ms="18280" started-at="2020-01-21T19:55:09Z" finished-at="2020-01-21T19:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUggPageLoad()[pri:4, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="verifyUggPageLoad" duration-ms="5835" started-at="2020-01-21T19:55:27Z" finished-at="2020-01-21T19:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUggPageLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="tearDown" is-config="true" duration-ms="762" started-at="2020-01-21T19:55:33Z" finished-at="2020-01-21T19:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="setUp" is-config="true" duration-ms="14687" started-at="2020-01-21T19:55:55Z" finished-at="2020-01-21T19:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUggProductsPageLoad()[pri:5, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="verifyUggProductsPageLoad" duration-ms="5193" started-at="2020-01-21T19:56:10Z" finished-at="2020-01-21T19:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUggProductsPageLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskOne@59f99ea]" name="tearDown" is-config="true" duration-ms="741" started-at="2020-01-21T19:56:15Z" finished-at="2020-01-21T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kg.qa.testcases.TaskOne -->
+      <class name="com.kg.qa.testcases.TaskTwo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="setUp" is-config="true" duration-ms="15475" started-at="2020-01-21T19:53:29Z" finished-at="2020-01-21T19:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMensPageLoad()[pri:1, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="verifyMensPageLoad" duration-ms="3518" started-at="2020-01-21T19:53:44Z" finished-at="2020-01-21T19:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMensPageLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="tearDown" is-config="true" duration-ms="730" started-at="2020-01-21T19:53:48Z" finished-at="2020-01-21T19:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="setUp" is-config="true" duration-ms="16514" started-at="2020-01-21T19:54:07Z" finished-at="2020-01-21T19:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPDP_KKG_M_Loafers_Bazza()[pri:2, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="verifyPDP_KKG_M_Loafers_Bazza" duration-ms="6923" started-at="2020-01-21T19:54:24Z" finished-at="2020-01-21T19:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPDP_KKG_M_Loafers_Bazza -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="tearDown" is-config="true" duration-ms="740" started-at="2020-01-21T19:54:31Z" finished-at="2020-01-21T19:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="setUp" is-config="true" duration-ms="14873" started-at="2020-01-21T19:54:48Z" finished-at="2020-01-21T19:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySize()[pri:3, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="verifySize" duration-ms="5372" started-at="2020-01-21T19:55:03Z" finished-at="2020-01-21T19:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySize -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="tearDown" is-config="true" duration-ms="769" started-at="2020-01-21T19:55:08Z" finished-at="2020-01-21T19:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="setUp" is-config="true" duration-ms="14195" started-at="2020-01-21T19:55:34Z" finished-at="2020-01-21T19:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddtobag()[pri:4, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="verifyAddtobag" duration-ms="6585" started-at="2020-01-21T19:55:48Z" finished-at="2020-01-21T19:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddtobag -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="tearDown" is-config="true" duration-ms="759" started-at="2020-01-21T19:55:55Z" finished-at="2020-01-21T19:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="setUp" is-config="true" duration-ms="20785" started-at="2020-01-21T19:56:16Z" finished-at="2020-01-21T19:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBagitemNumber()[pri:5, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="verifyBagitemNumber" duration-ms="7186" started-at="2020-01-21T19:56:37Z" finished-at="2020-01-21T19:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBagitemNumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="tearDown" is-config="true" duration-ms="759" started-at="2020-01-21T19:56:44Z" finished-at="2020-01-21T19:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="setUp" is-config="true" duration-ms="15127" started-at="2020-01-21T19:56:45Z" finished-at="2020-01-21T19:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCheckoutPageLoad()[pri:6, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="verifyCheckoutPageLoad" duration-ms="20240" started-at="2020-01-21T19:57:00Z" finished-at="2020-01-21T19:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutPageLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kg.qa.testcases.TaskTwo@27efef64]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-01-21T19:57:20Z" finished-at="2020-01-21T19:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kg.qa.testcases.TaskTwo -->
+    </test> <!-- Test Suite -->
+  </suite> <!-- *Kurt Geiger – Test Engineer Automation Task* -->
+</testng-results>
