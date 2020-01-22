@@ -9,9 +9,9 @@ Two test candidates from a list of 3 use cases have been chosen to design test s
 4. Status
 
 
-### Introduction 
+### 1. Introduction 
 
-Usecase One > TaskOne.java
+Use case One > TaskOne.java
 
 Given I am on the homepage
 When I select brands category from the header
@@ -26,7 +26,7 @@ verifyBrandsPageLoad
 verifyUggPageLoad
 verifyUggProductsPageLoad
 
-Usecase Three > TaskTwo.java
+Use case Three > TaskTwo.java
 
 Given I select men category from the header
 And I am on PDP
