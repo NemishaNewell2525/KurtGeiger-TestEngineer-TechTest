@@ -13,39 +13,28 @@ Two test candidates from a list of 3 use cases have been chosen to design test s
 
 Use case One > TaskOne.java
 
-Given I am on the homepage
-jshdvcsjhcv\
-jsdbcjhsdv \
-jhsdfbvj \
-kfbv \
-djkfvn\ 
-
-jsbdcksdb
-sdbsd
-sdbnvksd
+Given I am on the homepage\
+When I select brands category from the header\
+Then I should see the list of brands\
+And I select UGG brand from the list\
+Then I should see the list of products from UGG\
 
 
-When I select brands category from the header
-Then I should see the list of brands
-And I select UGG brand from the list
-Then I should see the list of products from UGG
-
-
-Includes 5 test cases
-verifyHomePageLoad
-verifyHeaderBrandsLink
-verifyBrandsPageLoad
-verifyUggPageLoad
-verifyUggProductsPageLoad
+Includes 5 test cases\
+verifyHomePageLoad\
+verifyHeaderBrandsLink\
+verifyBrandsPageLoad\
+verifyUggPageLoad\
+verifyUggProductsPageLoad\
 
 Use case Three > TaskTwo.java
 
-Given I select men category from the header
-And I am on PDP
-When I select any colour and size for the chosen men category
-And I add the product to the bag
-Then I can see the bag with single item
-And I click 'Proceed to Checkout'
-Then I should be on checkout page
+Given I select men category from the header\
+And I am on PDP\
+When I select any colour and size for the chosen men category\
+And I add the product to the bag\
+Then I can see the bag with single item\
+And I click 'Proceed to Checkout'\
+Then I should be on checkout page\
 
 
