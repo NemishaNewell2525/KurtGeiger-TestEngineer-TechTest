@@ -48,10 +48,10 @@ verifyCheckoutPageLoad
 	
 ## 2. Technologies
 
-JavaSE 1.8 for writing code
-Selenium 3.14.0 Webdriver framework
-TestNG 6.11.0 for writing test cases
-Maven to run build
+JavaSE 1.8 for writing code\
+Selenium 3.14.0 Webdriver framework\
+TestNG 6.11.0 for writing test cases\
+Maven to run build\
 TestNG report for generating report
 
 
@@ -59,11 +59,11 @@ TestNG report for generating report
 
 Update following file paths with current file locations
 
-TestBase.java > config.properties file/
-TestBase.java > Chrome driver/
+TestBase.java > config.properties file\
+TestBase.java > Chrome driver\
 TestBase.java > Firefox driver
 
-To run test in Chrome browser > Select 'Chrome' in config.properties
+To run test in Chrome browser > Select 'Chrome' in config.properties\
 To run test in Firefox browser > Select 'FF' in config.properties
 
 To run all tests as a test suite > run "I:\git\KurtGeiger-TestEngineer-TechTest\qa\src\main\resources\RunTestSuite.xml" as TestNG Suite
