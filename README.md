@@ -20,7 +20,7 @@ And I select UGG brand from the list\
 Then I should see the list of products from UGG
 
 
-####Includes 5 test cases\
+###Includes 5 test cases\
 verifyHomePageLoad\
 verifyHeaderBrandsLink\
 verifyBrandsPageLoad\
@@ -37,7 +37,7 @@ Then I can see the bag with single item\
 And I click 'Proceed to Checkout'\
 Then I should be on checkout page
 
-####Includes 6 test cases\
+###Includes 6 test cases\
 verifyMensPageLoad\
 verifyPDP_KKG_M_Loafers_Bazza\
 verifySize\
