@@ -14,10 +14,15 @@ Two test candidates from a list of 3 use cases have been chosen to design test s
 Use case One > TaskOne.java
 
 Given I am on the homepage
+
 When I select brands category from the header
+
 Then I should see the list of brands
+
 And I select UGG brand from the list
+
 Then I should see the list of products from UGG
+
 
 Includes 5 test cases
 verifyHomePageLoad
